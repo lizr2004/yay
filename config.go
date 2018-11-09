@@ -135,7 +135,7 @@ func (config *Configuration) saveConfig() error {
 
 func defaultSettings() *Configuration {
 	config := &Configuration{
-		AURURL:             "https://aur.archlinux.org",
+		AURURL:             "https://aur.tuna.tsinghua.edu.cn/",
 		BuildDir:           "$HOME/.cache/yay",
 		CleanAfter:         false,
 		Editor:             "",

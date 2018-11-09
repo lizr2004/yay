@@ -8,7 +8,7 @@ import (
 )
 
 //AURURL is the base string from which the query is built
-var AURURL = "https://aur.archlinux.org/rpc.php?"
+var AURURL = "https://aur.tuna.tsinghua.edu.cn/rpc.php?"
 
 type response struct {
 	Error       string `json:"error"`
